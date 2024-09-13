@@ -7,7 +7,7 @@ import { PrivyProvider } from "@privy-io/react-auth";
 const font = Outfit({ subsets: ["latin"] });
 
 const BitTorrent = defineChain({
-  id: 1029,
+  id: 199,
   name: "BitTorrent Chain Donau",
   network: "BitTorrent Chain Donau",
   nativeCurrency: {
@@ -34,7 +34,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={font.className}>
         <PrivyProvider
-          appId="clwci9fzm00w7ro85bx6jarr5"
+          appId="cm10vikbp03p7w06gdpm3ifpv"
           config={{
             appearance: {
               theme: "light",
